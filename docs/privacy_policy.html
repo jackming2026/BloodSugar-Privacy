@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HealthTracker Privacy Policy / 隐私政策</title>
+<style>
+  body { font-family: -apple-system, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif; max-width: 860px; margin: 0 auto; padding: 24px 20px; color: #222; line-height: 1.75; background: #fff; }
+  h1 { font-size: 1.7em; border-bottom: 3px solid #2d7d46; padding-bottom: 12px; }
+  h2 { font-size: 1.25em; margin-top: 2em; color: #2d7d46; }
+  .lang-switch { margin: 12px 0 24px; }
+  .lang-switch button { padding: 8px 20px; border: 1px solid #2d7d46; background: #fff; color: #2d7d46; border-radius: 6px; cursor: pointer; font-size: 15px; }
+  .lang-switch button.active { background: #2d7d46; color: #fff; }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; }
+  th, td { border: 1px solid #ddd; padding: 8px 12px; text-align: left; font-size: 0.95em; }
+  th { background: #f2f8f4; }
+  .update-date { color: #666; font-size: 0.95em; }
+</style>
+</head>
+<body>
+
+<div class="lang-switch">
+  <button id="btnZh" class="active" onclick="showLang('zh')">中文</button>
+  <button id="btnEn" onclick="showLang('en')">English</button>
+</div>
+
+<!-- ================= 中文版 ================= -->
+<div id="lang-zh">
+<h1>HealthTracker 隐私政策</h1>
+<p class="update-date">生效日期：2026年9月19日 &nbsp;|&nbsp; 版本：V1.0</p>
+
+<p>我们（"HealthTracker"）非常重视您的隐私。本政策说明我们在您使用 HealthTracker 移动应用（以下简称"本应用"）时如何收集、使用、存储和保护您的信息。<strong>使用本应用即表示您同意本政策所述的内容。</strong></p>
+
+<h2>一、我们收集哪些信息</h2>
+<p>本应用是一款本地优先（Local-first）的健康记录工具。<strong>您录入的健康数据仅保存在您的设备本地，不会上传到我们的任何服务器</strong>。具体包括：</p>
+<table>
+  <tr><th>数据类型</th><th>说明</th><th>存储位置</th></tr>
+  <tr><td>血糖记录</td><td>测量值、测量时段（空腹/餐后等）、时间</td><td>仅本地</td></tr>
+  <tr><td>血压记录</td><td>收缩压、舒张压、脉搏、时间</td><td>仅本地</td></tr>
+  <tr><td>体重 / BMI</td><td>体重值、BMI（自动计算）、时间</td><td>仅本地</td></tr>
+  <tr><td>心率记录</td><td>静息心率、测量结果分类、测量时间</td><td>仅本地</td></tr>
+  <tr><td>饮水记录</td><td>每次饮水量与时间</td><td>仅本地</td></tr>
+  <tr><td>计步数据</td><td>步数、距离、卡路里（由设备传感器产生）</td><td>仅本地</td></tr>
+  <tr><td>基本画像</td><td>年龄、性别、身高（仅用于 BMI 计算与结果评估）</td><td>仅本地</td></tr>
+  <tr><td>提醒设置</td><td>您自定义的喝水/测量闹钟时间</td><td>仅本地</td></tr>
+</table>
+
+<h2>二、设备权限的使用</h2>
+<table>
+  <tr><th>权限</th><th>用途</th><th>说明</th></tr>
+  <tr><td>相机（Camera）</td><td>指尖心率测量</td><td>仅用于实时分析指尖血流颜色变化以计算心率，<strong>不拍照、不录像、不保存任何图像</strong>，测量过程完全在设备上完成</td></tr>
+  <tr><td>身体活动（Activity Recognition）</td><td>计步器</td><td>读取系统计步传感器数据，用于展示每日步数</td></tr>
+  <tr><td>通知（Notifications）</td><td>健康提醒</td><td>向您发送您主动设置的喝水、测量提醒</td></tr>
+  <tr><td>开机启动</td><td>恢复闹钟</td><td>设备重启后恢复您已设置的提醒</td></tr>
+  <tr><td>前台服务</td><td>常驻提醒</td><td>保障您开启的提醒按时触发</td></tr>
+</table>
+<p>所有权限均在对应功能首次使用时向您请求，您可以拒绝；拒绝后仅影响对应功能，不影响应用其他部分。</p>
+
+<h2>三、第三方服务</h2>
+<p>本应用集成了以下第三方服务，它们可能依据其自身政策处理有限的设备标识信息：</p>
+<table>
+  <tr><th>服务</th><th>提供方</th><th>用途</th><th>处理的信息</th></tr>
+  <tr><td>Firebase Analytics</td><td>Google LLC</td><td>匿名使用统计（如页面访问、功能使用次数），用于改进产品</td><td>匿名设备标识符、事件数据（不含您的健康数据）</td></tr>
+  <tr><td>Google AdMob 广告</td><td>Google LLC</td><td>展示广告以支持免费使用</td><td>广告标识符、设备信息、大致位置（由广告 SDK 依据广告配置决定）</td></tr>
+  <tr><td>Google Play 应用内评分</td><td>Google LLC</td><td>邀请您为本应用评分</td><td>不涉及额外个人信息</td></tr>
+</table>
+<p>对于位于欧洲经济区（EEA）、英国或适用地区的用户，本应用会在首次启动时通过 Google 认证的同意管理平台（UMP）征求您对个性化广告的同意。您随时可以在系统设置中撤回该同意。</p>
+<p><strong>您的健康记录数据（血糖、血压、心率、体重、饮水、步数）不会通过以上任何服务传输。</strong>广告与统计 SDK 仅接触设备级标识信息。</p>
+
+<h2>四、数据如何存储与保护</h2>
+<ul>
+  <li>您的健康数据以本地加密文件形式存储在您的设备上，本应用不提供云同步，也不经营任何存储您数据的服务器。</li>
+  <li>本应用不要求注册账号，不收集您的姓名、电子邮箱、电话号码或任何可以 直接识别您身份的信息。</li>
+  <li>建议您为设备设置锁屏密码以保护本地数据。</li>
+</ul>
+
+<h2>五、数据的导出与删除</h2>
+<ul>
+  <li><strong>导出</strong>：您可以在"设置 → 导出数据"中把全部健康记录导出为 CSV 文件，通过系统分享菜单自行保存或转移。</li>
+  <li><strong>删除</strong>：您可以在各模块的历史记录中删除单条数据；卸载本应用将<strong>永久删除</strong>设备上保存的全部数据，且无法恢复。</li>
+</ul>
+
+<h2>六、数据共享</h2>
+<p>我们不会出售、出租或交易您的任何信息。除本政策第三节所述第三方服务外，我们不会与任何其他方共享数据，除非法律要求或为保护我们的合法权益所必需。</p>
+
+<h2>七、儿童隐私</h2>
+<p>本应用面向 13 周岁（或您所在司法辖区规定的相应年龄）以上的用户。我们不会故意收集儿童的个人信息。健康数据均由用户主动录入并仅存于本地。</p>
+
+<h2>八、AI 健康问答的说明</h2>
+<p>本应用内的"AI 健康助手"仅提供一般性健康常识参考，不构成医疗建议，也不能替代执业医师的诊断。其问答内容不发送您的健康记录。<strong>如有任何健康问题，请咨询专业医生。</strong></p>
+
+<h2>九、政策变更</h2>
+<p>我们可能不时更新本政策。重大变更将在应用内或本页面显著提示。更新后继续使用本应用即表示接受修订后的政策。</p>
+
+<h2>十、联系我们</h2>
+<p>如您对本政策有任何疑问，请通过以下方式联系：</p>
+<p>电子邮箱：<strong>support@yourdomain.com</strong><span style="color:#c00">（正式发布前请替换为真实邮箱）</span></p>
+</div>
+
+<!-- ================= English ================= -->
+<div id="lang-en" style="display:none">
+<h1>HealthTracker Privacy Policy</h1>
+<p class="update-date">Effective Date: September 19, 2026 &nbsp;|&nbsp; Version: V1.0</p>
+
+<p>We ("HealthTracker") take your privacy seriously. This policy explains how information is collected, used, stored, and protected when you use the HealthTracker mobile application (the "App"). <strong>By using the App, you agree to the practices described in this policy.</strong></p>
+
+<h2>1. Information We Collect</h2>
+<p>The App is a local-first health tracking tool. <strong>Your health data is stored only on your device and is never uploaded to any of our servers.</strong> This includes:</p>
+<table>
+  <tr><th>Data Type</th><th>Details</th><th>Storage</th></tr>
+  <tr><td>Blood sugar records</td><td>Values, measurement period (fasting/post-meal), timestamps</td><td>Local only</td></tr>
+  <tr><td>Blood pressure records</td><td>Systolic, diastolic, pulse, timestamps</td><td>Local only</td></tr>
+  <tr><td>Weight / BMI</td><td>Weight values, BMI (auto-calculated), timestamps</td><td>Local only</td></tr>
+  <tr><td>Heart rate records</td><td>Resting heart rate, category, timestamps</td><td>Local only</td></tr>
+  <tr><td>Water intake records</td><td>Volume per drink, timestamps</td><td>Local only</td></tr>
+  <tr><td>Pedometer data</td><td>Steps, distance, calories (from device sensors)</td><td>Local only</td></tr>
+  <tr><td>Basic profile</td><td>Age, gender, height (used solely for BMI calculation and result assessment)</td><td>Local only</td></tr>
+  <tr><td>Reminder settings</td><td>Custom water/measurement alarm times</td><td>Local only</td></tr>
+</table>
+
+<h2>2. Use of Device Permissions</h2>
+<table>
+  <tr><th>Permission</th><th>Purpose</th><th>Notes</th></tr>
+  <tr><td>Camera</td><td>Fingertip heart-rate measurement</td><td>Used only to analyze fingertip blood-flow color changes in real time; <strong>no photos or videos are taken, and no images are saved</strong>. Processing is entirely on-device</td></tr>
+  <tr><td>Activity Recognition</td><td>Pedometer</td><td>Reads the system step-counter sensor to display daily steps</td></tr>
+  <tr><td>Notifications</td><td>Health reminders</td><td>Sends reminders you have set up yourself</td></tr>
+  <tr><td>Receive boot completed</td><td>Restore alarms</td><td>Restores your reminders after device restart</td></tr>
+  <tr><td>Foreground service</td><td>Persistent reminders</td><td>Ensures your enabled reminders fire on time</td></tr>
+</table>
+<p>All permissions are requested when the corresponding feature is first used and may be declined; declining only affects that feature.</p>
+
+<h2>3. Third-Party Services</h2>
+<table>
+  <tr><th>Service</th><th>Provider</th><th>Purpose</th><th>Data Processed</th></tr>
+  <tr><td>Firebase Analytics</td><td>Google LLC</td><td>Anonymous usage statistics (e.g., screen views, feature usage) to improve the product</td><td>Anonymous device identifiers, event data (never your health data)</td></tr>
+  <tr><td>Google AdMob</td><td>Google LLC</td><td>Showing ads to keep the App free</td><td>Advertising identifier, device info, coarse location (as determined by ad SDK configuration)</td></tr>
+  <tr><td>Google Play In-App Review</td><td>Google LLC</td><td>Inviting you to rate the App</td><td>No additional personal information</td></tr>
+</table>
+<p>For users in the European Economic Area (EEA), the UK, or other applicable regions, the App requests your consent for personalized advertising via a Google-certified Consent Management Platform (UMP) at first launch. You may withdraw this consent at any time in system settings.</p>
+<p><strong>Your health records (blood sugar, blood pressure, heart rate, weight, water, steps) are never transmitted through any of these services.</strong> Ad and analytics SDKs only access device-level identifiers.</p>
+
+<h2>4. How Data Is Stored and Protected</h2>
+<ul>
+  <li>Your health data is stored locally on your device. The App offers no cloud sync and operates no servers holding your data.</li>
+  <li>The App requires no account registration and collects no name, email address, phone number, or other directly identifying information.</li>
+  <li>We recommend setting a device screen lock to protect local data.</li>
+</ul>
+
+<h2>5. Data Export and Deletion</h2>
+<ul>
+  <li><strong>Export</strong>: You can export all health records as a CSV file via "Settings → Export Data" and save or transfer it yourself via the system share menu.</li>
+  <li><strong>Deletion</strong>: You can delete individual records in each module's history; uninstalling the App <strong>permanently deletes</strong> all data stored on the device, with no way to recover it.</li>
+</ul>
+
+<h2>6. Data Sharing</h2>
+<p>We do not sell, rent, or trade your information. Except for the third-party services described in Section 3, we do not share data with anyone else unless required by law or necessary to protect our legitimate rights.</p>
+
+<h2>7. Children's Privacy</h2>
+<p>The App is intended for users aged 13 (or the applicable age in your jurisdiction) or older. We do not knowingly collect personal information from children. Health data is entered voluntarily by the user and stored only locally.</p>
+
+<h2>8. AI Health Q&A Disclaimer</h2>
+<p>The in-app "AI Health Assistant" provides general health knowledge for reference only. It does not constitute medical advice and cannot replace diagnosis by a licensed physician. <strong>For any health concerns, please consult a qualified doctor.</strong></p>
+
+<h2>9. Changes to This Policy</h2>
+<p>We may update this policy from time to time. Material changes will be highlighted in the App or on this page. Continued use of the App after an update constitutes acceptance of the revised policy.</p>
+
+<h2>10. Contact Us</h2>
+<p>If you have questions about this policy, contact us at:</p>
+<p>Email: <strong>support@yourdomain.com</strong><span style="color:#c00"> (replace with your real support email before publishing)</span></p>
+</div>
+
+<script>
+function showLang(lang) {
+  document.getElementById('lang-zh').style.display = lang === 'zh' ? '' : 'none';
+  document.getElementById('lang-en').style.display = lang === 'en' ? '' : 'none';
+  document.getElementById('btnZh').classList.toggle('active', lang === 'zh');
+  document.getElementById('btnEn').classList.toggle('active', lang === 'en');
+}
+</script>
+</body>
+</html>
