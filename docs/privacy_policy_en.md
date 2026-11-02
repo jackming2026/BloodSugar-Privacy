@@ -69,4 +69,4 @@ The in-app "AI Health Assistant" provides general health knowledge for reference
 Material changes will be highlighted in the App or on this page. Continued use after an update constitutes acceptance of the revised policy.
 
 ### 10. Contact Us
-Email: `support@yourdomain.com` (**replace with your real support email before publishing**)
+Email: `jxgzmjh2017@163.com`
